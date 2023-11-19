@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quizz Project</string>
+    <string name="geography_text">Các câu hỏi về các vùng đất,địa hình dân cư và các hiện tượng trên trái đất</string>
+    <string name="history_text">Các câu hỏi về sự kiện liên quan đến con người</string>
+    <string name="science_text">Các câu hỏi về những định luật,cấu trúc và cách vận hành của thế giới tự nhiên</string>
+    <string name="art_text">Supporting line text lorem ipsum dolor sit amet,consectetur</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Infor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="GoQuiz"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Chào mừng bạn đến với trò chơi Go Quiz"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Trong trò chơi này bạn trả lời các câu hỏi theo các chủ đề Lịch sử, Địa lý, Khoa học, Nghệ thuật.."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Bạn có thể trả lời câu hỏi theo cấp độ dễ và khó"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Một câu hỏi được hiện ra gồm có 4 đáp án. Bạn phải chọn một trong bốn đáp án đó, sau đó ấn nút trả lời.Mỗi câu trả lời đúng bạn sẽ được cộng một điểm. Trả lời sai trò chơi sẽ kết thúc.Sẽ có ngôi sao hi vọng sau ba câu hỏi.Thành tích của bạn sẽ được lưu lại sau mỗi lần chơi."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Bạn có thể xem lại lịch sử trò chơi sau khi kết thúc. Lịch sử trò chơi sẽ hiện các câu hỏi mà bạn đã chơi,đáp án đúng của câu hỏi và độ khó của trò chơi bạn chọn."
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+    </LinearLayout>
+
+</ScrollView>
